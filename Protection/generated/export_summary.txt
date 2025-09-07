@@ -1,0 +1,79 @@
+KiCad Export Summary
+===================
+Project: Protection
+Export Date: Wed Aug 27 04:54:46 PM +03 2025
+Output Folder: generated
+
+Generated Files:
+================
+  3d/Protection_3d_back-left.png
+  3d/Protection_3d_back-left-up.png
+  3d/Protection_3d_back.png
+  3d/Protection_3d_back-right.png
+  3d/Protection_3d_back-right-up.png
+  3d/Protection_3d_bottom-left.png
+  3d/Protection_3d_bottom.png
+  3d/Protection_3d_bottom-right.png
+  3d/Protection_3d_front-left.png
+  3d/Protection_3d_front-left-up.png
+  3d/Protection_3d_front.png
+  3d/Protection_3d_front-right.png
+  3d/Protection_3d_front-right-up.png
+  3d/Protection_3d_left.png
+  3d/Protection_3d_right.png
+  3d/Protection_3d_top-left.png
+  3d/Protection_3d_top-left-up.png
+  3d/Protection_3d_top.png
+  3d/Protection_3d_top-right.png
+  3d/Protection_3d_top-right-up.png
+  3d/Protection_board.step
+  3d/Protection_board.stl
+  3d/Protection_full.step
+  3d/Protection_full.stl
+  bom/Protection_bom.csv
+  bom/Protection_bom.html
+  bom/Protection_bom.pdf
+  export_summary.txt
+  gerbers/Protection-B_Adhesive.gba
+  gerbers/Protection-B_Courtyard.gbr
+  gerbers/Protection-B_Cu.gbl
+  gerbers/Protection-B_Fab.gbr
+  gerbers/Protection-B_Mask.gbs
+  gerbers/Protection-B_Paste.gbp
+  gerbers/Protection-B_Silkscreen.gbo
+  gerbers/Protection.drl
+  gerbers/Protection-Edge_Cuts.gm1
+  gerbers/Protection-F_Adhesive.gta
+  gerbers/Protection-F_Courtyard.gbr
+  gerbers/Protection-F_Cu.gtl
+  gerbers/Protection-F_Fab.gbr
+  gerbers/Protection-F_Mask.gts
+  gerbers/Protection-F_Paste.gtp
+  gerbers/Protection-F_Silkscreen.gto
+  gerbers/Protection_gerbers.zip
+  gerbers/Protection-job.gbrjob
+  gerbers/Protection-Margin.gbr
+  gerbers/Protection-User_1.gbr
+  gerbers/Protection-User_2.gbr
+  gerbers/Protection-User_3.gbr
+  gerbers/Protection-User_4.gbr
+  gerbers/Protection-User_Comments.gbr
+  gerbers/Protection-User_Drawings.gbr
+  gerbers/Protection-User_Eco1.gbr
+  gerbers/Protection-User_Eco2.gbr
+  pdf/pcb/Protection_B.Cu.pdf
+  pdf/pcb/Protection_B.SilkS.pdf
+  pdf/pcb/Protection_F.Cu.pdf
+  pdf/pcb/Protection_F.SilkS.pdf
+  pdf/Protection_comprehensive.pdf
+  pdf/schematic/Protection.pdf
+
+Folder Structure:
+=================
+/home/aykut/Dropbox/Developments/KiCad/Simple_Lab_Power_Supply/Protection/generated
+  3d
+  bom
+  gerbers
+  pdf
+  pdf/pcb
+  pdf/schematic

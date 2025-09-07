@@ -1,0 +1,79 @@
+KiCad Export Summary
+===================
+Project: Controller
+Export Date: Wed Aug 27 04:48:48 PM +03 2025
+Output Folder: generated
+
+Generated Files:
+================
+  3d/Controller_3d_back-left.png
+  3d/Controller_3d_back-left-up.png
+  3d/Controller_3d_back.png
+  3d/Controller_3d_back-right.png
+  3d/Controller_3d_back-right-up.png
+  3d/Controller_3d_bottom-left.png
+  3d/Controller_3d_bottom.png
+  3d/Controller_3d_bottom-right.png
+  3d/Controller_3d_front-left.png
+  3d/Controller_3d_front-left-up.png
+  3d/Controller_3d_front.png
+  3d/Controller_3d_front-right.png
+  3d/Controller_3d_front-right-up.png
+  3d/Controller_3d_left.png
+  3d/Controller_3d_right.png
+  3d/Controller_3d_top-left.png
+  3d/Controller_3d_top-left-up.png
+  3d/Controller_3d_top.png
+  3d/Controller_3d_top-right.png
+  3d/Controller_3d_top-right-up.png
+  3d/Controller_board.step
+  3d/Controller_board.stl
+  3d/Controller_full.step
+  3d/Controller_full.stl
+  bom/Controller_bom.csv
+  bom/Controller_bom.html
+  bom/Controller_bom.pdf
+  export_summary.txt
+  gerbers/Controller-B_Adhesive.gba
+  gerbers/Controller-B_Courtyard.gbr
+  gerbers/Controller-B_Cu.gbl
+  gerbers/Controller-B_Fab.gbr
+  gerbers/Controller-B_Mask.gbs
+  gerbers/Controller-B_Paste.gbp
+  gerbers/Controller-B_Silkscreen.gbo
+  gerbers/Controller.drl
+  gerbers/Controller-Edge_Cuts.gm1
+  gerbers/Controller-F_Adhesive.gta
+  gerbers/Controller-F_Courtyard.gbr
+  gerbers/Controller-F_Cu.gtl
+  gerbers/Controller-F_Fab.gbr
+  gerbers/Controller-F_Mask.gts
+  gerbers/Controller-F_Paste.gtp
+  gerbers/Controller-F_Silkscreen.gto
+  gerbers/Controller_gerbers.zip
+  gerbers/Controller-job.gbrjob
+  gerbers/Controller-Margin.gbr
+  gerbers/Controller-User_1.gbr
+  gerbers/Controller-User_2.gbr
+  gerbers/Controller-User_3.gbr
+  gerbers/Controller-User_4.gbr
+  gerbers/Controller-User_Comments.gbr
+  gerbers/Controller-User_Drawings.gbr
+  gerbers/Controller-User_Eco1.gbr
+  gerbers/Controller-User_Eco2.gbr
+  pdf/Controller_comprehensive.pdf
+  pdf/pcb/Controller_B.Cu.pdf
+  pdf/pcb/Controller_B.SilkS.pdf
+  pdf/pcb/Controller_F.Cu.pdf
+  pdf/pcb/Controller_F.SilkS.pdf
+  pdf/schematic/Controller.pdf
+
+Folder Structure:
+=================
+/home/aykut/Dropbox/Developments/KiCad/Simple_Lab_Power_Supply/Controller/generated
+  3d
+  bom
+  gerbers
+  pdf
+  pdf/pcb
+  pdf/schematic

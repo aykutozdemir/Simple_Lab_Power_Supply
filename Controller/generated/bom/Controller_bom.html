@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bill of Materials - Controller</title>
+    <style>
+        @page {
+            size: A4 landscape;
+            margin: 1cm;
+            @top-center {
+                content: "Bill of Materials - Controller";
+                font-family: Arial, sans-serif;
+                font-size: 10pt;
+                color: #666;
+            }
+            @bottom-center {
+                content: "Page " counter(page) " of " counter(pages);
+                font-family: Arial, sans-serif;
+                font-size: 10pt;
+                color: #666;
+            }
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: white;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 15px;
+        }
+        
+        .header h1 {
+            color: #2E7D32;
+            margin: 0;
+            font-size: 24pt;
+            font-weight: bold;
+        }
+        
+        .header p {
+            color: #666;
+            margin: 5px 0 0 0;
+            font-size: 12pt;
+        }
+        
+        .project-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            font-size: 10pt;
+            color: #555;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 9pt;
+            page-break-inside: auto;
+        }
+        
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px;
+            text-align: left;
+            font-weight: bold;
+            border: 1px solid #45a049;
+        }
+        
+        td {
+            padding: 6px 8px;
+            text-align: left;
+            border: 1px solid #ddd;
+            vertical-align: top;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        tr:nth-child(odd) {
+            background-color: white;
+        }
+        
+        tr:hover {
+            background-color: #f0f8ff;
+        }
+        
+        .refs {
+            font-weight: bold;
+            color: #2E7D32;
+        }
+        
+        .value {
+            font-weight: bold;
+        }
+        
+        .footprint {
+            font-family: monospace;
+            font-size: 8pt;
+        }
+        
+        .qty {
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .rating {
+            font-style: italic;
+            color: #666;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 8pt;
+            color: #999;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+        
+        @media print {
+            body {
+                margin: 0;
+                padding: 10px;
+            }
+            
+            table {
+                font-size: 8pt;
+            }
+            
+            th, td {
+                padding: 4px 6px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Bill of Materials</h1>
+        <p>Controller</p>
+    </div>
+    
+    <div class="project-info">
+        <span><strong>Export Date:</strong> Wed Aug 27 04:48:46 PM +03 2025</span>
+        <span><strong>Total Components:</strong> 26</span>
+    </div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Reference</th>
+                <th>Value</th>
+                <th>Footprint</th>
+                <th>Quantity</th>
+                <th>Rating/Spec</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="refs">C6</td>
+            <td class="value">0.1u</td>
+            <td class="footprint">Capacitor_THT:CP_Radial_Tantal_D5.5mm_P5.00mm</td>
+            <td class="qty">1</td>
+            <td class="rating">63V</td>
+        </tr>
+        <tr>
+            <td class="refs">C1-C4,C8</td>
+            <td class="value">100n</td>
+            <td class="footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</td>
+            <td class="qty">5</td>
+            <td class="rating">50V</td>
+        </tr>
+        <tr>
+            <td class="refs">C5</td>
+            <td class="value">0.33u</td>
+            <td class="footprint">Capacitor_THT:CP_Radial_Tantal_D5.5mm_P5.00mm</td>
+            <td class="qty">1</td>
+            <td class="rating">50V</td>
+        </tr>
+        <tr>
+            <td class="refs">C7</td>
+            <td class="value">47u</td>
+            <td class="footprint">Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm</td>
+            <td class="qty">1</td>
+            <td class="rating">50V</td>
+        </tr>
+        <tr>
+            <td class="refs">R7-R10,R14,R21-R24</td>
+            <td class="value">470</td>
+            <td class="footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td>
+            <td class="qty">9</td>
+            <td class="rating">%1</td>
+        </tr>
+        <tr>
+            <td class="refs">R26</td>
+            <td class="value">820</td>
+            <td class="footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td>
+            <td class="qty">1</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">R12</td>
+            <td class="value">1k</td>
+            <td class="footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td>
+            <td class="qty">1</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">R1,R2,R11,R13,R15,R16,R25</td>
+            <td class="value">10k</td>
+            <td class="footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td>
+            <td class="qty">7</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">R3-R6,R17-R20</td>
+            <td class="value">10k</td>
+            <td class="footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td>
+            <td class="qty">8</td>
+            <td class="rating">%1</td>
+        </tr>
+        <tr>
+            <td class="refs">D30</td>
+            <td class="value">1N4001</td>
+            <td class="footprint">PCM_Diode_THT_AKL:D_DO-41_SOD81_P7.62mm_Horizontal</td>
+            <td class="qty">1</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">D1-D8,D11-D14,D16-D23,D26-D29,D31-D33</td>
+            <td class="value">1N4148</td>
+            <td class="footprint">PCM_Diode_THT_AKL:D_DO-35_SOD27_P7.62mm_Horizontal</td>
+            <td class="qty">27</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">Q1</td>
+            <td class="value">2N3904</td>
+            <td class="footprint">PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_EBC</td>
+            <td class="qty">1</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">Q2</td>
+            <td class="value">2N4401</td>
+            <td class="footprint">PCM_Package_TO_SOT_THT_AKL:TO-92_Inline_Wide_EBC</td>
+            <td class="qty">1</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">R27,R28</td>
+            <td class="value">4k7</td>
+            <td class="footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td>
+            <td class="qty">2</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">U3</td>
+            <td class="value">74LS08</td>
+            <td class="footprint">Package_DIP:DIP-14_W7.62mm_Socket</td>
+            <td class="qty">1</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">U1,U2</td>
+            <td class="value">74LS74</td>
+            <td class="footprint">Package_DIP:DIP-14_W7.62mm_Socket</td>
+            <td class="qty">2</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">U4</td>
+            <td class="value">74LS86</td>
+            <td class="footprint">Package_DIP:DIP-14_W7.62mm_Socket</td>
+            <td class="qty">1</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">BZ1</td>
+            <td class="value">Buzzer_5V</td>
+            <td class="footprint">Buzzer_Beeper:Buzzer_12x9.5RM7.6</td>
+            <td class="qty">1</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">HS1</td>
+            <td class="value">Heatsink_Generic</td>
+            <td class="footprint">Power_Module_Library:TO-220_Heatsink</td>
+            <td class="qty">1</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">J3,J4,J8-J22</td>
+            <td class="value">JST_02</td>
+            <td class="footprint">Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</td>
+            <td class="qty">17</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">J1,J2,J5,J6</td>
+            <td class="value">JST_07</td>
+            <td class="footprint">Connector_JST:JST_XH_B7B-XH-A_1x07_P2.50mm_Vertical</td>
+            <td class="qty">4</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">U5</td>
+            <td class="value">L7805CV</td>
+            <td class="footprint">PCM_Package_TO_SOT_THT_AKL:TO-220-3_Vertical</td>
+            <td class="qty">1</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">D15</td>
+            <td class="value">LED_5mm</td>
+            <td class="footprint">Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</td>
+            <td class="qty">1</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">D9,D10,D24,D25</td>
+            <td class="value">LED_Dual_AKA</td>
+            <td class="footprint">Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</td>
+            <td class="qty">4</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">J7</td>
+            <td class="value">Screw_Terminal_2_P5.00mm</td>
+            <td class="footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal</td>
+            <td class="qty">1</td>
+            <td class="rating"></td>
+        </tr>
+        <tr>
+            <td class="refs">JP1,JP2</td>
+            <td class="value">~</td>
+            <td class="footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</td>
+            <td class="qty">2</td>
+            <td class="rating"></td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <div class="footer">
+        <p>Generated by KiCad Export System | Professional BOM Documentation</p>
+    </div>
+</body>
+</html>

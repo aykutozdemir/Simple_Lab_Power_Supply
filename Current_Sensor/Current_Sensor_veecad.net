@@ -1,0 +1,91 @@
+( { EESchema Netlist Version 1.1 created  2025-09-03T19:27:54+0300 }
+ ( /0a6f7158-c16c-433d-ae1e-ccc3ceb8f04d SIP2  R6 100k
+  (    1 Net-(R6-+) )
+  (    2 Net-(R6--) )
+ )
+ ( /27e8107f-c0e3-4018-87eb-9144d9cddead SIP2  R3 1k
+  (    1 +5V )
+  (    2 Net-(C2-+) )
+ )
+ ( /2916b4c3-4cdc-40f9-8a94-8672b238d5cc SIP3  RV3 2k
+  (    1 Net-(R5--) )
+  (    2 Net-(J1-Pad1) )
+  (    3 unconnected-(RV3-Pad3) )
+ )
+ ( /39168f24-c79e-4475-b51b-539534024c3a DIP8  U1 TLV9062
+  (    1 Net-(R6-+) )
+  (    2 Net-(R6-+) )
+  (    3 Net-(C2-+) )
+  (    4 GND )
+  (    5 Net-(R4--) )
+  (    6 Net-(R6--) )
+  (    7 Net-(J1-Pad1) )
+  (    8 +5V )
+ )
+ ( /55ffa3f2-a30e-45f9-a917-5da7fdb75875 SIP3  U2 TL431LP
+  (    1 Net-(R1--) )
+  (    2 GND )
+  (    3 Net-(C2-+) )
+ )
+ ( /55ffdf55-8f68-488e-80a8-8ed8abb9224b SIP2  R5 18k
+  (    1 Net-(R4--) )
+  (    2 Net-(R5--) )
+ )
+ ( /647919a5-cb26-4db2-9a2a-9ab84d490026 SIP2  R7 18k
+  (    1 Net-(R6--) )
+  (    2 GND )
+ )
+ ( /666027f2-569a-4ad6-bf23-a3f62834ca64 SIP2  R4 100k
+  (    1 Net-(R4-+) )
+  (    2 Net-(R4--) )
+ )
+ ( /6f795d77-0e77-4b3a-87d8-673702338b08 SIP3  RV1 2k
+  (    1 unconnected-(RV1-Pad1) )
+  (    2 Net-(R2--) )
+  (    3 GND )
+ )
+ ( /73982776-b229-495a-a507-f44ab8f3eb0a SIP2  R1 2k2
+  (    1 +5V )
+  (    2 Net-(R1--) )
+ )
+ ( /7dd95203-88cf-4701-a8cb-c4e2fc5b495a SIP2  J1 C_IN_DISPLAY
+  (    1 Net-(J1-Pad1) )
+  (    2 GND )
+ )
+ ( /92de8b0f-45ce-45e4-9852-d2a9d3153273 SIP3  J2 V_IN_DISPLAY
+  (    1 Net-(J2-Pad1) )
+  (    2 GND )
+  (    3 +5V )
+ )
+ ( /9ce573a1-ddfd-456a-90d9-9997d71e9d33 BOX1_1  C1 100n
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /a4582079-03da-45a2-9e58-4f799ff3e438 SIP3  J4 V_IN
+  (    1 Net-(J2-Pad1) )
+  (    2 GND )
+  (    3 +5V )
+ )
+ ( /b05880b6-7cdb-40e6-8e92-433f9e850d0a CAPR5_5  C3 10u
+  (    1 Net-(C2-+) )
+  (    2 GND )
+ )
+ ( /c339fbff-3ad5-42ec-a4d8-8a2ca0318190 BOX1_1  C4 4u7
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /d96ddf8d-1bd2-4813-813d-96092c9bb59f SIP3  J3 ACS712-20
+  (    1 +5V )
+  (    2 Net-(R4-+) )
+  (    3 GND )
+ )
+ ( /e954e83a-e0e5-464d-bacd-437ebb25bc1c SIP2  R2 2k
+  (    1 Net-(R1--) )
+  (    2 Net-(R2--) )
+ )
+ ( /f2ec1f34-c6ab-4fcc-a58a-30fdaa685f15 BOX1_1  C2 100n
+  (    1 Net-(C2-+) )
+  (    2 GND )
+ )
+)
+*
